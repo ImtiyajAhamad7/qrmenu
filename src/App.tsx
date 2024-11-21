@@ -25,7 +25,7 @@ function Home() {
       <ReactQRCode value={menuUrl} size={256} />
 
       <p>
-        Or visit the menu <Link href="/menu">here</Link>
+        Or visit the menu <Link to={"/menu"}>here</Link>
       </p>
     </div>
   );
