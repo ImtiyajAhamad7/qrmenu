@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import MenuPage from "./component/MenuPage";
 import ReactQRCode from "react-qr-code";
+import Link from "react-router-dom";
 const App = () => {
   return (
     <div>
@@ -24,7 +25,7 @@ function Home() {
       <ReactQRCode value={menuUrl} size={256} />
 
       <p>
-        Or visit the menu <a href="/menu">here</a>
+        Or visit the menu <Link href="/menu">here</Link>
       </p>
     </div>
   );
