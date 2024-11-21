@@ -1,7 +1,7 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import MenuPage from "./component/MenuPage";
 import ReactQRCode from "react-qr-code";
-import Link from "react-router-dom";
+
 const App = () => {
   return (
     <div>
